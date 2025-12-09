@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@font-face{
+  font-family:font1;
+  src: url('../fonts/Lausanne-300.woff2') format('truetype');
+
+}
+@font-face{
+  font-family:font2;
+  src: url('../fonts/Lausanne-500.woff2') format('truetype');
+
+}
+@font-face{
+  font-family:font3;
+  src: url('../fonts/DM-Sans-regular.woff2') format('truetype');
+
+}
+
+body{
+  background: #000;
+  color: #fff;
+}
+
+/* help me to hide the scrollbar at all the page */
+
+
+html, body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+}
