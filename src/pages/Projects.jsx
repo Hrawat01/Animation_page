@@ -33,14 +33,14 @@ const Projects = () => {
   gsap.registerPlugin(ScrollTrigger);
 useGSAP(() => {
   gsap.from(".hero",{
-    height:"30px",
+    height:"80px",
     stagger:{
       amount:0.3
     },
     scrollTrigger:{
       trigger:".lol",
       // markers:true,
-      start:"top 100%",
+      start:"top 120%",
       end:"top -260%",
       scrub:true,
     }
@@ -56,7 +56,7 @@ useGSAP(() => {
       {/* <sup className='text-[10px]'>16</sup> */}
      </h1></div>
 
-     <div className='lol flex flex-col gap-0.5 flex-wrap'> 
+     <div className='lol flex flex-col gap-0.5 flex-wrap '> 
 
      {ProjectImage.map((elem, index) => {
       return <div className='hero'>
