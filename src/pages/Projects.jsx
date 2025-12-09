@@ -33,7 +33,7 @@ const Projects = () => {
   gsap.registerPlugin(ScrollTrigger);
 useGSAP(() => {
   gsap.from(".hero",{
-    height:"100px",
+    height:"30px",
     stagger:{
       amount:0.3
     },
@@ -41,7 +41,7 @@ useGSAP(() => {
       trigger:".lol",
       // markers:true,
       start:"top 100%",
-      end:"top -250%",
+      end:"top -260%",
       scrub:true,
     }
 
