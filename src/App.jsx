@@ -12,9 +12,9 @@ const App = () => {
   return (
    <div className='text-6xl'>
   <div className='absolute z-1 flex top-6 right-6'>
-      <Link className='text-green-700 mr-6 text-[22px]' to={'/'}>Home</Link>
-    <Link className='text-green-700 mr-6 text-[22px]' to={'/agent'}>Agents</Link>
-    <Link className='text-green-700 mr-6 text-[22px]' to={'/project'}>Projects</Link>
+      <Link className='text-green-700 mr-5 text-[22px]' to={'/'}>Home</Link>
+    <Link className='text-green-700 mr-5 text-[22px]' to={'/agent'}>Agents</Link>
+    <Link className='text-green-700 mr-5 text-[22px]' to={'/project'}>Projects</Link>
   </div>
      <Suspense fallback={<div>Loading...</div>}>
    <Routes>
