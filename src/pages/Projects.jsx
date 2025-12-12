@@ -52,7 +52,7 @@ useGSAP(() => {
   return (
     <div className='p-5 '>
     <div className='pt-[45vh]'> 
-      <h1 className='text-[13vw] font-[font3] uppercase '>Projets
+      <h1 className='text-[13vw] font-[font2] uppercase '>Projets
       {/* <sup className='text-[10px]'>16</sup> */}
      </h1></div>
 
